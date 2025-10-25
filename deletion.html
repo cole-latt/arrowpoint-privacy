@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrowPoint - Account & Data Deletion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            min-height: 100vh;
+        }
+        
+        header {
+            border-bottom: 3px solid #007AFF;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #007AFF;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        h2:first-of-type {
+            margin-top: 20px;
+            border-top: none;
+            padding-top: 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .warning-box {
+            background: #FFF3CD;
+            border-left: 4px solid #FF9500;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .warning-box strong {
+            color: #D97706;
+            font-size: 18px;
+        }
+        
+        .info-box {
+            background: #E3F2FD;
+            border-left: 4px solid #007AFF;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .contact-box {
+            background: #F8F9FA;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 2px solid #E5E7EB;
+        }
+        
+        .contact-box h3 {
+            color: #007AFF;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .contact-box p {
+            margin-bottom: 10px;
+        }
+        
+        .steps-list {
+            background: #F9FAFB;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .steps-list ol {
+            margin-left: 20px;
+        }
+        
+        .steps-list li {
+            font-weight: 500;
+            padding: 5px 0;
+        }
+        
+        .danger-text {
+            color: #DC2626;
+            font-weight: 600;
+        }
+        
+        .data-list {
+            background: #FEF2F2;
+            padding: 20px;
+            border-left: 4px solid #DC2626;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        
+        .data-list ul {
+            margin-top: 10px;
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            .warning-box, .contact-box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Account & Data Deletion</h1>
+            <p class="subtitle">How to delete your ArrowPoint account and what data gets removed</p>
+        </header>
+
+        <div class="warning-box">
+            <p><strong>⚠️ Important Warning</strong></p>
+            <p>Account deletion is <span class="danger-text">permanent and cannot be undone</span>. All your data will be permanently removed from our servers within 30 days.</p>
+        </div>
+
+        <h2>How to Delete Your Account</h2>
+        <p>You can delete your ArrowPoint account directly from the mobile app:</p>
+        
+        <div class="steps-list">
+            <ol>
+                <li>Open the ArrowPoint app on your device</li>
+                <li>Navigate to your Profile tab (bottom right)</li>
+                <li>Tap the Settings icon (gear icon in top right)</li>
+                <li>Scroll down to the "Danger Zone" section</li>
+                <li>Tap "Delete Account"</li>
+                <li>Read the confirmation warning carefully</li>
+                <li>Tap "Delete Account" again to confirm</li>
+                <li>Enter your password to verify</li>
+                <li>Tap "Confirm Deletion" to complete the process</li>
+            </ol>
+        </div>
+
+        <p>Your account will be deleted immediately, and you will be logged out of the app.</p>
+
+        <h2>What Data Gets Deleted</h2>
+        <p>When you delete your account, the following data is <span class="danger-text">permanently removed</span> from our servers:</p>
+        
+        <div class="data-list">
+            <ul>
+                <li><strong>Profile Information:</strong> Username, email address, full name, bio, location, avatar image</li>
+                <li><strong>Vault Items:</strong> All your saved arrowhead finds, photos, descriptions, and metadata</li>
+                <li><strong>Frames:</strong> All custom frames and collections you created</li>
+                <li><strong>Social Content:</strong> All your posts, comments, likes, and votes</li>
+                <li><strong>Social Connections:</strong> Your followers, following list, and blocked users</li>
+                <li><strong>Notifications:</strong> All notification history</li>
+                <li><strong>Settings:</strong> All app preferences and customizations</li>
+                <li><strong>Usage Data:</strong> Smart ID history, Manual ID searches, and usage statistics</li>
+                <li><strong>Analytics:</strong> App usage patterns and behavioral data</li>
+            </ul>
+        </div>
+
+        <h2>Data Retention Period</h2>
+        <p><strong>Immediate Deletion:</strong> Your account is deactivated immediately and you can no longer log in.</p>
+        <p><strong>30-Day Grace Period:</strong> Your data is permanently deleted from our servers within 30 days. This includes:</p>
+        <ul>
+            <li>All database records</li>
+            <li>All uploaded images from cloud storage</li>
+            <li>All cached data</li>
+            <li>All backup copies</li>
+        </ul>
+        
+        <div class="info-box">
+            <p><strong>📋 Legal Retention Note:</strong> Some anonymized data may be retained for up to 90 days for legal compliance, security investigations, or fraud prevention. This data cannot be linked back to you personally.</p>
+        </div>
+
+        <h2>What Happens to Your Content</h2>
+        <p><strong>Public Posts:</strong> Any posts you shared publicly will be deleted. Other users will see "[deleted]" in place of your username if they commented on your posts.</p>
+        <p><strong>Comments:</strong> Your comments on other users' posts will be deleted.</p>
+        <p><strong>Likes & Votes:</strong> All your likes and votes will be removed, and vote counts will be updated accordingly.</p>
+
+        <h2>Subscription Cancellation</h2>
+        <div class="warning-box">
+            <p><strong>⚠️ Critical:</strong> Deleting your ArrowPoint account does <span class="danger-text">NOT automatically cancel</span> your App Store or Google Play subscription!</p>
+        </div>
+        
+        <p>You must cancel your subscription separately to avoid being charged:</p>
+
+        <h3>For iOS (Apple App Store):</h3>
+        <div class="steps-list">
+            <ol>
+                <li>Open the Settings app on your iPhone or iPad</li>
+                <li>Tap your name at the top</li>
+                <li>Tap "Subscriptions"</li>
+                <li>Find "ArrowPoint" in the list</li>
+                <li>Tap "Cancel Subscription"</li>
+                <li>Confirm cancellation</li>
+            </ol>
+        </div>
+
+        <h3>For Android (Google Play):</h3>
+        <div class="steps-list">
+            <ol>
+                <li>Open the Google Play Store app</li>
+                <li>Tap the menu icon (☰) → Subscriptions</li>
+                <li>Find "ArrowPoint" in the list</li>
+                <li>Tap "Cancel Subscription"</li>
+                <li>Follow the on-screen instructions</li>
+            </ol>
+        </div>
+
+        <h2>Export Your Data Before Deletion</h2>
+        <p>We recommend exporting a copy of your data before deleting your account. To request a data export:</p>
+        
+        <div class="contact-box">
+            <h3>📧 Data Export Request</h3>
+            <p><strong>Email:</strong> <a href="mailto:support@arrowpoint.app?subject=Data Export Request">support@arrowpoint.app</a></p>
+            <p><strong>Subject Line:</strong> Data Export Request</p>
+            <p><strong>Include:</strong> Your ArrowPoint username and registered email address</p>
+            <p><strong>Response Time:</strong> We'll send your data within 7 business days in JSON format</p>
+            <p><strong>What You'll Receive:</strong> ZIP file containing all your profile data, vault items, posts, and photos</p>
+        </div>
+
+        <h2>Unable to Delete Your Account?</h2>
+        <p>If you're experiencing issues deleting your account through the app, we can help:</p>
+        
+        <div class="contact-box">
+            <h3>🆘 Manual Deletion Request</h3>
+            <p><strong>Email:</strong> <a href="mailto:support@arrowpoint.app?subject=Manual Account Deletion Request">support@arrowpoint.app</a></p>
+            <p><strong>Subject Line:</strong> Manual Account Deletion Request</p>
+            <p><strong>Include:</strong></p>
+            <ul style="margin-left: 20px;">
+                <li>Your ArrowPoint username</li>
+                <li>Registered email address</li>
+                <li>Reason for manual request (optional)</li>
+            </ul>
+            <p><strong>Response Time:</strong> Account deleted within 48 hours (usually much faster)</p>
+            <p><strong>Confirmation:</strong> You'll receive an email when deletion is complete</p>
+        </div>
+
+        <h2>Data Protection Rights (GDPR/CCPA)</h2>
+        <p>If you're located in the EU, UK, or California, you have additional data rights:</p>
+        <ul>
+            <li><strong>Right to Access:</strong> Request a copy of all personal data we hold</li>
+            <li><strong>Right to Rectification:</strong> Correct inaccurate personal data</li>
+            <li><strong>Right to Erasure:</strong> Request deletion of your personal data ("right to be forgotten")</li>
+            <li><strong>Right to Restriction:</strong> Limit how we use your personal data</li>
+            <li><strong>Right to Data Portability:</strong> Receive your data in a portable format</li>
+            <li><strong>Right to Object:</strong> Object to processing of your personal data</li>
+        </ul>
+        <p>To exercise any of these rights, contact us at <a href="mailto:privacy@arrowpoint.app">privacy@arrowpoint.app</a></p>
+
+        <h2>What Happens After Deletion</h2>
+        <p><strong>Immediate Effects:</strong></p>
+        <ul>
+            <li>You will be logged out of all devices</li>
+            <li>Your profile will disappear from search and discovery</li>
+            <li>Your username becomes available for others to use after 90 days</li>
+            <li>You cannot log in or recover your account</li>
+        </ul>
+
+        <p><strong>Creating a New Account:</strong></p>
+        <ul>
+            <li>You can create a new account with the same email after deletion is complete (30 days)</li>
+            <li>Your old data will NOT be restored to the new account</li>
+            <li>You will start fresh with no previous data or connections</li>
+        </ul>
+
+        <h2>Questions or Concerns?</h2>
+        <div class="contact-box">
+            <h3>📬 Contact Us</h3>
+            <p><strong>General Support:</strong> <a href="mailto:support@arrowpoint.app">support@arrowpoint.app</a></p>
+            <p><strong>Privacy Inquiries:</strong> <a href="mailto:privacy@arrowpoint.app">privacy@arrowpoint.app</a></p>
+            <p><strong>Data Protection Officer:</strong> <a href="mailto:dpo@arrowpoint.app">dpo@arrowpoint.app</a></p>
+            <p style="margin-top: 15px;"><strong>Average Response Time:</strong> 24-48 hours</p>
+        </div>
+
+        <h2>Related Resources</h2>
+        <ul>
+            <li><a href="https://cole-latt.github.io/arrowpoint-privacy/privacy.html">Privacy Policy</a> - How we collect and use your data</li>
+            <li><a href="https://cole-latt.github.io/arrowpoint-privacy/terms.html">Terms of Service</a> - Rules and guidelines for using ArrowPoint</li>
+            <li><a href="mailto:support@arrowpoint.app">Contact Support</a> - Get help with any questions</li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2025 ArrowPoint. All rights reserved.</p>
+            <p><a href="https://cole-latt.github.io/arrowpoint-privacy/privacy.html">Privacy Policy</a> | <a href="https://cole-latt.github.io/arrowpoint-privacy/terms.html">Terms of Service</a></p>
+            <p style="margin-top: 10px; font-size: 12px;">This page last updated: October 25, 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
+
